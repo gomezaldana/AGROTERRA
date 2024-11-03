@@ -1,41 +1,32 @@
 import React from 'react'
+import "../App.css";
 
 
 export const Navbar = () => {
     return (
-        <div className="container-fluid">
-            <div className="row">
-                <div className="col-12">
-                    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                        <div className="container-fluid">
-                            <a className="navbar-brand" href="#">AGROTERRA</a>
-                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon"></span>
-                            </button>
-                            <div className="collapse navbar-collapse" id="navbarNav">
-                                <ul className="navbar-nav ms-auto">
-                                    <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="/">INICIO</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="/Proyectos">PROYECTOS</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="/Preguntas">Preguntas frecuentes</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="/SobreNosotros">SOBRE NOSOTROS</a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a className="nav-link" href="#"><i className="bi bi-person-circle"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
+        <nav className="navbar navbar-expand-lg bg-light fixed-top">
+            <div className="container-fluid px-5">
+                <a className="navbar-name" href="#">AGROTERRA</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ms-auto d-flex">
+                        <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5">
+                            <a className="nav-link text-dark fw-medium" href="#Home">Inicio</a>
+                        </li>
+                        <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5">
+                            <a className="nav-link text-dark fw-medium" href="#Projects">Proyectos</a>
+                        </li>
+                        <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5">
+                            <a className="nav-link text-dark fw-medium" href="#Preguntas">Preguntas Frecuentes</a>
+                        </li>
+                        <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5">
+                            <a className="nav-link text-dark fw-medium" href="#SobreNosotros">Sobre Nosotros</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-
-    )
+        </nav>
+    );
 }
