@@ -20,8 +20,8 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container">
-        <h2 className="mb-4">PROYECTOS MÁS POPULARES</h2>
+      <div className="container mx-auto p-2">
+        <h2 className="mb-4 mx-auto p-2 text-center">PROYECTOS MÁS POPULARES</h2>
         {/* Proyectos populares */}
         <div className="row">
           <div className="col-md-3 mb-4">
@@ -83,14 +83,13 @@ export const Home = () => {
         </div>
 
         <div className="col-md-12"></div>
-        <div className="container my-4 px-lg-5">
-          <h2 className="mb-4">¿COMO FUNCIONA AGROTERRA?</h2>
+        <div className="container my-4 px-lg-5 mx-auto p-2">
+          <h2 className="mb-4  mx-auto p-2 text-center">¿COMO FUNCIONA AGROTERRA?</h2>
           <div className="row justify-content-center">
             <div className="col-12 col-lg-4 d-flex justify-content-center mb-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="img/campo.png" className="card-img-top" alt="..." />
-
+                  <img src="img/explorarProyectos.png" className="card-img-top" alt="..." />
                   <h3 className="text-center pt-4">Explorar Proyectos</h3>
                 </div>
               </div>
@@ -98,7 +97,7 @@ export const Home = () => {
             <div className="col-12 col-lg-4 d-flex justify-content-center mb-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="img/campo.png" className="card-img-top" alt="..." />
+                  <img src="img/ContribuyeProyecto.png" className="card-img-top" alt="..." />
                   <h3 className="text-center pt-4">Contribuye a un proyecto</h3>
                 </div>
               </div>
@@ -106,7 +105,7 @@ export const Home = () => {
             <div className="col-12 col-lg-4 d-flex justify-content-center mb-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="img/campo.png" className="card-img-top" alt="..." />
+                  <img src="img/Impacto.png" className="card-img-top" alt="..." />
                   <h3 className="text-center pt-4">Mira el Impacto</h3>
                 </div>
               </div>
@@ -114,6 +113,28 @@ export const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* <!-- Impacto--> */}
+      <div className="row align-items-center justify-content-center text-black">
+        <h2 className="mb-4 p-2 text-center">NUESTRO IMPACTO</h2>
+        <div className="col-12 col-md-8 mt-4 mt-md-0">
+          <div className="card-group row g-5 justify-content-center">
+            <div className="card">
+              <img src="img/proyectos.png" className="card-img-top" alt="..." />
+              <div className="card-body"></div>
+            </div>
+            <div className="card">
+              <img src="img/completados.png" className="card-img-top" alt="..." />
+              <div className="card-body"></div>
+            </div>
+            <div className="card">
+              <img src="img/dolares.png" className="card-img-top" alt="..." />
+              <div className="card-body"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </>
   );
 };
