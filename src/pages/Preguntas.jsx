@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
 
 const faqData = [
   {
@@ -43,7 +44,7 @@ const faqData = [
       {
         id: "siete",
         title: "¿Cuáles son los métodos de pago disponibles?",
-        answer: "Puedes realizar pagos con tarjeta de crédito, transferencia bancaria o a través de plataformas de pago en línea como PayPal."
+        answer: "Puedes realizar pagos con Mercado Pago"
       },
       {
         id: "ocho",
@@ -93,7 +94,10 @@ export const Preguntas = () => {
   return (
     <div className="container my-5">
       {/* Sección de Preguntas Frecuentes */}
-      <h2 className="text-center fw-bold mb-4" style={{ color: "#2b5930" }}>
+      
+      
+      
+      <h2 className="text-center fw-bold mb-4" style={{ margin: "150px"     }}>
         PREGUNTAS FRECUENTES
       </h2>
       <div className="card shadow-sm mx-auto" style={{ maxWidth: "800px" }}>
