@@ -22,22 +22,22 @@ export const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto d-flex">
-            <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5">
-              <NavLink className="nav-link text-dark fw-medium" to={"/"}>
+            <li className="nav-item mx-0 mx-lg-3 h5" >
+              <NavLink className="nav-link text-dark fw-medium" to={"/"} >
                 Inicio
               </NavLink>
             </li>
-            <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5">
+            <li className="nav-item mx-0 mx-lg-3 h5">
               <NavLink className="nav-link text-dark fw-medium" to={"/proyectos"}>
                 Proyectos
               </NavLink>
             </li>
-            <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5">
+            <li className="nav-item mx-0 mx-lg-3 h5">
               <NavLink className="nav-link text-dark fw-medium" to={"/preguntas"} >
                 Preguntas Frecuentes
               </NavLink>
             </li>
-            <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5">
+            <li className="nav-item mx-0 mx-lg-3 h5">
               <NavLink className="nav-link text-dark fw-medium" to={"/sobreNosotros"}>
                 Sobre Nosotros
               </NavLink>

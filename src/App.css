@@ -22,7 +22,7 @@
 /* imagen CAMPO - TEXTO BANNER*/
 .image-container {
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
-    height: 90vh; /* Establece la altura al 50% de la altura de la ventana */
+    height: 72vh; /* Establece la altura al 50% de la altura de la ventana */
     overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
     ;
   }

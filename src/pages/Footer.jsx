@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
-
+import { Container, Row, Col } from "react-bootstrap";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer style={{ backgroundColor: '#007A33', padding: '20px 0', color: '#FFF' }}>
