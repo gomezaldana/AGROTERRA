@@ -12,7 +12,7 @@ import { Projects } from './pages/Projects';
 import { Preguntas } from './pages/Preguntas';
 import { SobreNosotros } from './pages/SobreNosotros';
 import Footer from './pages/Footer';
-
+import {Perfil} from './pages/Perfil';
 function App() {
     return (
         <>
