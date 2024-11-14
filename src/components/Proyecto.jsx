@@ -15,10 +15,10 @@ export const Proyecto = () => {
     // Función para obtener los datos del proyecto
     const fetchProyecto = async () => {
         // Cuando se logueen, guardar token y buscarlo desde ahi
-        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NzJkMjJiNTI2MDQ0ZTdlZjRkYjEwZjYiLCJuYW1lIjoiQWxmcmVkbyIsImlhdCI6MTczMTAyNTk3MiwiZXhwIjoxNzMxMDQwMzcyfQ.VG_c2tqex3a2Lw25hpo6xlHDyDmAQGn_HPZabUDnsRw"
+        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NzMzNWY2ZTUwOWE2NTAwYmQ5NzMyMGUiLCJuYW1lIjoiRmVsaXBlIiwiaWF0IjoxNzMxNTkxMDc4LCJleHAiOjE3MzE2MDU0Nzh9.yhwBIE88-VL7eezKg3MTjfyGLlqPMib3arlv9lK1LiM"
 
         //Cuando alguien apriete ver en detalle un proyecto, poner id aca
-        const idProject = "672d33d8b3f78e8ca5316ef5";
+        const idProject = "67335cc9509a6500bd9731cf";
         const response = await fetch(`http://localhost:8080/api/projects/${idProject}`, {
             method: 'GET',
             headers: {
@@ -46,7 +46,7 @@ export const Proyecto = () => {
     };
 
     return (
-        <div className='container mt-5'>
+        <div className='container 'style={{ paddingTop: '150px' }}>
             <div className="row">
                 <p>s</p>
                 {proyecto && autorProyecto ? (<>
@@ -84,7 +84,7 @@ export const Proyecto = () => {
                     <h2>OBJETIVO</h2>
                     <p className='fs-5 '>{proyecto.description}</p>
                     <img
-                        className='mt-2 mx-auto d-block'
+                        className='mt-2 mb-5 mx-auto d-block '
                         src={`data:${proyecto.images[1].data.contentType};base64,${proyecto.images[1].data}`}
                         alt={proyecto.title}
                         style={{ height: '600px', width: 'auto' }}

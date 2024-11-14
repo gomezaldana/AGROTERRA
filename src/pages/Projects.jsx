@@ -7,8 +7,6 @@ export const Projects = () => {
     return (
         <div >
           <p>dd</p>
-          <p>dd</p>
-          <Proyecto></Proyecto>
         </div>
     )   
 }
