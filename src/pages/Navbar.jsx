@@ -38,7 +38,7 @@ export const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item mx-0 mx-lg-3 h5">
-              <NavLink className="nav-link text-dark fw-medium" to={"/sobreNosotros"}>
+              <NavLink className="nav-link text-dark fw-medium" to={"/Nosotros"}>
                 Sobre Nosotros
               </NavLink>
             </li>

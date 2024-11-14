@@ -71,3 +71,55 @@
     background-color: white;
     color: black;
 }
+
+
+  
+
+/* Estilos solo para la card flip de SobreNosotros */
+
+
+  
+  .sobre-nosotros .card {
+    width: 75%;
+    height: 300px; /* Ajusta la altura de las tarjetas */
+    position: relative;
+    transform-style: preserve-3d; /* Mantiene la apariencia 3D */
+    transition: transform 0.6s; /* Hace que el flip sea suave */
+  }
+  
+  .sobre-nosotros .card-front,
+  .sobre-nosotros .card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta la parte de atrás cuando se voltea */
+  }
+  
+  .sobre-nosotros .card-front {
+    z-index: 2; /* La parte frontal estará por encima */
+  }
+  
+  .sobre-nosotros .card-back {
+    transform: rotateY(180deg); /* Rota la parte de atrás para que se oculte inicialmente */
+  }
+  
+  .sobre-nosotros .card-container.flipped .card {
+    transform: rotateY(180deg); /* Cuando se voltea, se aplica el efecto */
+  }
+  
+  .sobre-nosotros .card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: cover; /* Asegura que las imágenes se ajusten al tamaño de la tarjeta */
+  }
+  
+  .sobre-nosotros .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
