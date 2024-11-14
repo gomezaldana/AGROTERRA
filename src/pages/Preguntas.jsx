@@ -24,7 +24,7 @@ const faqData = [
       {
         id: "cuatro",
         title: "¿Qué tipo de información necesito proporcionar al registrar mi proyecto?",
-        answer: "Deberás incluir una descripción detallada del proyecto, objetivos, y cualquier material relevante."
+        answer: "Deberás incluir una descripción detallada del proyecto, objetivos, y cualquier material relevante, ademas de su financiacion"
       },
       {
         id: "cinco",
