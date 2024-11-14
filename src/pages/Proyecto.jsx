@@ -17,7 +17,8 @@ export const Proyecto = () => {
     // Función para obtener los datos del proyecto
     const fetchProyecto = async () => {
         // Cuando se logueen, guardar token y buscarlo desde ahi
-        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NzM2NDEzZjY4M2RmY2QwN2I5YTI4NjgiLCJuYW1lIjoiU3VzYW5hIiwiaWF0IjoxNzMxNjA4OTE1LCJleHAiOjE3MzE2MjMzMTV9.jgf9DzcMVsoxjSd36zdBDDId3O388UZxJkLR1tO--UM"
+        const token = localStorage.getItem('authToken'); 
+
 
         const idProject = id;
         const response = await fetch(`https://agroterra-backend.onrender.com/api/projects/${idProject}`, {
