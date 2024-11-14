@@ -4,23 +4,23 @@ import "../App.css";
 
 export const Perfil = () => {
   return (
-    <div className="d-flex justify-content-center align-items-center vh-100" style={{ margin: '50px' }}>
-      <div className="card p-4" style={{ backgroundColor: '#037840', borderRadius: '10px', width: '300px' }}>
-        <h2 className="text-center text-white mb-4">BIENVENIDO</h2>
-        <form>
-          <div className="mb-3">
-            <label htmlFor="email" className="form-label text-white">Email</label>
-            <input type="email" className="form-control" id="email" placeholder="Email" />
-          </div>
-          <div className="mb-3">
-            <label htmlFor="password" className="form-label text-white">Contraseña</label>
-            <input type="password" className="form-control" id="password" placeholder="Contraseña" />
-          </div>
-          <div className="d-grid gap-2">
-            <button type="submit" className="btn btn-success">INGRESAR</button>
-            <button type="button" className="btn btn-outline-light">REGISTRARTE</button>
-          </div>
-        </form>
+    <div className="d-flex flex-column align-items-center" style={{ height: '100vh' , margin: '150px' }}>
+      <h1 className="my-4" style={{ color: '#2c5237' }}>PERFIL</h1>
+      
+      <div className="card p-4" style={{ width: '20rem', borderRadius: '20px', borderColor: '#2c5237' }}>
+        <div className="text-center">
+          <img 
+            src= 'img/FotoUsuario.png'
+            alt="Usuario foto" 
+            className="mb-3"
+            style={{ backgroundColor: '#2c5237' }}
+          />
+          <h3 style={{ color: '#2c5237' }}>¡Bienvenido!</h3>
+        </div>
+        <div className="d-flex flex-column">
+          <button className="btn btn-success my-2">Sube un proyecto</button>
+          <button className="btn btn-outline-success my-2">Cerrar sesión</button>
+        </div>
       </div>
     </div>
   );
