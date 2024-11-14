@@ -13,6 +13,7 @@ import { Preguntas } from './pages/Preguntas';
 import { SobreNosotros } from './pages/SobreNosotros';
 import Footer from './pages/Footer';
 import {Perfil} from './pages/Perfil';
+import { Proyecto } from './pages/Proyecto';
 function App() {
     return (
         <>
@@ -24,7 +25,8 @@ function App() {
                     <Route path="/Preguntas" element={<Preguntas />} />
                     <Route path="/Nosotros" element={<SobreNosotros />} />
                     <Route path="/Perfil" element={<Perfil/>}/>
-                </Routes>
+                    <Route path="/proyecto/:id" element={<Proyecto />} />
+                    </Routes>
                 <Footer/>
             </Router>
         </>
