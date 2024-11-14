@@ -21,11 +21,11 @@ const Footer = () => {
                             <FaTwitter />
                         </a>
                     </Col>
-                    <Col md="12">
+                   {/*  <Col md="12">
                         <a href="#top" style={{ color: '#FFF', fontSize: '20px', textDecoration: 'none', padding: '10px', border: '2px solid #FFF', borderRadius: '50%' }}>
                             ↑
                         </a>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </footer>
