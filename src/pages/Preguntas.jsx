@@ -97,7 +97,7 @@ export const Preguntas = () => {
       
       
       
-      <h2 className="text-center fw-bold mb-4" style={{ margin: "150px"     }}>
+      <h2 className="text-center fw-bold mb-4" style={{ margin: "150px"  }}>
         PREGUNTAS FRECUENTES
       </h2>
       <div className="card shadow-sm mx-auto" style={{ maxWidth: "800px" }}>
