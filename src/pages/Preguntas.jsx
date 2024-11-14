@@ -85,7 +85,7 @@ export const Preguntas = () => {
     // Construir el enlace mailto con los datos del formulario
     const subject = `Comentario de ${formData.nombre} ${formData.apellido}`;
     const body = `Nombre: ${formData.nombre}\nApellido: ${formData.apellido}\n\nComentario: ${formData.comentario}`;
-    const mailtoLink = `mailto:xacit76957@operades.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:Agroterra@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     // Redirigir al enlace mailto
     window.location.href = mailtoLink;
@@ -97,7 +97,7 @@ export const Preguntas = () => {
       
       
       
-      <h2 className="text-center fw-bold mb-4" style={{ margin: "150px"  }}>
+      <h2 className="text-center fw-bold mb-4" style={{ margin: "150px" ,  color: "#2b5930"   }}>
         PREGUNTAS FRECUENTES
       </h2>
       <div className="card shadow-sm mx-auto" style={{ maxWidth: "800px" }}>
