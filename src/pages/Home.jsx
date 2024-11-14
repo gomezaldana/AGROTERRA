@@ -31,8 +31,8 @@ export const Home = () => {
 
   return (
     <>
-      <div className="image-container">
-        <img src="img/campo.png" className="img-fluid" alt="..." />
+      <div className="image-container" style={{ marginTop: "55px"  }}>
+        <img src="img/campo.png" className="img-fluid" alt="..."  />
         <div className="banner-text">
           <h1>TRANSFORMA EL FUTURO DEL AGRO CON TU APOYO</h1>
           <p className="fs-5">
@@ -44,7 +44,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto p-4">
+      <div className="container mx-auto p-4" style={{ margin: "25px"  }} >
         <h2 className="mb-4 mx-auto p-2 text-center">PROYECTOS MÁS POPULARES</h2>
         {/* Proyectos populares */}
         <div className="row">
