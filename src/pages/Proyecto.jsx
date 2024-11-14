@@ -17,10 +17,10 @@ export const Proyecto = () => {
     // Función para obtener los datos del proyecto
     const fetchProyecto = async () => {
         // Cuando se logueen, guardar token y buscarlo desde ahi
-        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NzMzNWY2ZTUwOWE2NTAwYmQ5NzMyMGUiLCJuYW1lIjoiRmVsaXBlIiwiaWF0IjoxNzMxNjA3NDAyLCJleHAiOjE3MzE2MjE4MDJ9.WRa5V-N3q0cV13qyEX8YQOQvAdlNrNZBKZTJwDyJ1wg"
+        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NzM2NDEzZjY4M2RmY2QwN2I5YTI4NjgiLCJuYW1lIjoiU3VzYW5hIiwiaWF0IjoxNzMxNjA4OTE1LCJleHAiOjE3MzE2MjMzMTV9.jgf9DzcMVsoxjSd36zdBDDId3O388UZxJkLR1tO--UM"
 
         const idProject = id;
-        const response = await fetch(`http://localhost:8080/api/projects/${idProject}`, {
+        const response = await fetch(`https://agroterra-backend.onrender.com/api/projects/${idProject}`, {
             method: 'GET',
             headers: {
                 'x-token': token,
@@ -36,7 +36,7 @@ export const Proyecto = () => {
 
     // Función para obtener los datos del autor del proyecto
     const fetchAutorProyecto = async (idUser) => {
-        const response = await fetch(`http://localhost:8080/api/auth/user/${idUser}`, {
+        const response = await fetch(`https://agroterra-backend.onrender.com/api/auth/user/${idUser}`, {
             method: 'GET'
         });
         if (!response.ok) {
