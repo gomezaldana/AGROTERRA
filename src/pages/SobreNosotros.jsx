@@ -103,13 +103,13 @@ export const SobreNosotros = () => {
   <div className="col-12 mb-4">
     <div className="card d-flex flex-row-reverse">
       <img
-        src="img/explorarProyectos.png"
+        src="img/aldana.png"
         className="card-img-left"
         style={{ width: '150px', height: 'auto' }} // Tamaño fijo para la imagen
         alt="Explorar Proyectos"
       />
       <div className="card-body d-flex align-items-center">
-        <h7 className="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio officiis expedita minima modi voluptate repudiandae eligendi. Libero illum quisquam officiis.</h7>
+        <h7 className="text-center">Soy una estudiante de Licenciatura en informática. Me entusiasma la idea de un espacio donde pueda trabajar en equipo, para poder contribuir con mis habilidades y crecer profesionalmente. Busco constantemente aprender cosas nuevas, me adapto a distintas situaciones siendo responsable y creativa.</h7>
       </div>
     </div>
   </div>
@@ -118,13 +118,13 @@ export const SobreNosotros = () => {
   <div className="col-12 mb-4">
     <div className="card d-flex flex-row">
       <img
-        src="img/ContribuyeProyecto.png"
+        src="img/ariadna.png"
         className="card-img-left"
         style={{ width: '150px', height: 'auto' }} // Tamaño fijo para la imagen
         alt="Contribuye a un proyecto"
       />
       <div className="card-body d-flex align-items-center">
-        <h7 className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quo aliquid ut blanditiis nihil placeat ab, aspernatur obcaecati. Corporis, quaerat.</h7>
+        <h7 className="text-center">Soy estudiante de Desarrollo Web Full-Stack, emocionada por seguir aprendiendo sobre programación. Poseo adaptabilidad dentro de un equipo de trabajo y una comunicación asertiva. Proyecto a futuro encontrar un trabajo que refuerze mis habilidades y me ayude a potenciarlas.</h7>
       </div>
     </div>
   </div>
@@ -133,31 +133,18 @@ export const SobreNosotros = () => {
   <div className="col-12 mb-4">
     <div className="card d-flex flex-row-reverse">
       <img
-        src="img/Impacto.png"
+        src="img/jaime.png"
         className="card-img-left"
         style={{ width: '150px', height: 'auto' }} // Tamaño fijo para la imagen
         alt="Mira el Impacto"
       />
       <div className="card-body d-flex align-items-center">
-        <h7 className="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, sed? Porro ad quos expedita quam nulla eligendi culpa autem exercitationem.</h7>
+        <h7 className="text-center">Soy estudiante de Tecnicatura Superior en Análisis de Sistemas. Me apasiona aprender nuevas tecnologías y aplicarlas a proyectos desafiantes. Con mi última experiencia laboral logre mejorar mi comunicación, adaptabilidad, y resolución de problemas. Estoy interesado en desarrollar mis habilidades en el ámbito informático y aportar valor a las organizaciones.</h7>
       </div>
     </div>
   </div>
 
-  {/* Card 4 - Imagen a la izquierda */}
-  <div className="col-12 mb-4">
-    <div className="card d-flex flex-row">
-      <img
-        src="img/Impacto.png"
-        className="card-img-left"
-        style={{ width: '150px', height: 'auto' }} // Tamaño fijo para la imagen
-        alt="Mira el Impacto"
-      />
-      <div className="card-body d-flex align-items-center">
-        <h7 className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore non esse aut amet ullam, quo reiciendis laudantium mollitia quod rem.</h7>
-      </div>
-    </div>
-  </div>
+  
 </div>
 
       </div>
